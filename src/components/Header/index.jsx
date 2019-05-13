@@ -1,5 +1,5 @@
 import React from "react";
-import DropDown from "../DropDown";
+import DropDown from "../Drop-down";
 import Button from "../Button";
 
 import fb from "../../assets/img/svg/icon-f.svg";

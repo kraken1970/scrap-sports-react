@@ -1,10 +1,10 @@
 import React from "react";
 import "./card.scss";
 
-const Card = ({ src, text, style, styleBtn, styleTxt }) => {
+const Card = ({ src, text, styleCard, styleBtn, styleTxt }) => {
   return (
     <div>
-      <div className={`card videos-card ${style}`}>
+      <div className={`card videos-card ${styleCard}`}>
         <div className="view overlay">
           <img
             className="card-img-top series-img-top"

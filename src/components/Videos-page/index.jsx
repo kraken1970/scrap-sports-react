@@ -73,7 +73,7 @@ const VideosPage = () => {
                       key={id}
                       src={src}
                       text={description}
-                      style="series-card"
+                      styleCard="series-card"
                     />
                   );
                 })}
@@ -98,7 +98,7 @@ const VideosPage = () => {
                     key={id}
                     src={src}
                     text={description}
-                    style="videos-card"
+                    styleCard="videos-card"
                   />
                 );
               })}
@@ -122,7 +122,7 @@ const VideosPage = () => {
                     key={id}
                     src={src}
                     text={description}
-                    style="videos-card"
+                    styleCard="videos-card"
                     styleBtn="hidden"
                     styleTxt="editor"
                   />

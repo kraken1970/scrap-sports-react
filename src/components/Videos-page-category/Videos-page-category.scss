@@ -1,0 +1,22 @@
+@import "../../assets/scss/variables";
+
+.category-breadcrumbs {
+  padding-top: 50px;
+  margin-bottom: 45px;
+}
+
+.page-category {
+  .user-pages {
+    padding-top: 0;
+  }
+  .block-cards {
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+    > div {
+      margin-bottom: 32px;
+    }
+    > div:nth-last-child(-n + 4) {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -29,7 +29,6 @@ function DropDown({
         <MDBDropdownItem className="dropdown-search">{list3}</MDBDropdownItem>
         <MDBDropdownItem className="dropdown-search">{list4}</MDBDropdownItem>
         <MDBDropdownItem className="dropdown-search">{list5}</MDBDropdownItem>
-        <MDBDropdownItem divider />
       </MDBDropdownMenu>
     </MDBDropdown>
   );

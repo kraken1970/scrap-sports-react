@@ -1,0 +1,29 @@
+@import "../../assets/scss/variables";
+
+.breadcrumbs {
+  display: flex;
+  padding-left: $gap;
+}
+
+.breadcrumbs-link {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: $light-text;
+  position: relative;
+  padding-right: $gap;
+  &::after {
+    content: ">";
+    position: absolute;
+    right: 7%;
+    top: 10%;
+  }
+}
+
+.breadcrumbs-link.active {
+  padding-right: 0;
+  color: $headllines;
+  &::after {
+    content: none;
+  }
+}
