@@ -1,5 +1,7 @@
 mdb and sass already connected
 
+deploy to heroku
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
