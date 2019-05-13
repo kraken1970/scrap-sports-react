@@ -1,0 +1,64 @@
+/*card scss*/
+@import "../../assets/scss/variables";
+
+.articles-card {
+  width: 432px;
+}
+
+.card {
+  border: 0.75px solid #cbd1e0;
+  border-radius: 4px;
+}
+
+.photos-card,
+.videos-card {
+  width: 320px;
+  border-radius: 4px;
+}
+
+.card-body {
+  padding-top: 10px !important;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1a051d;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.card-text {
+  font-size: 16px !important;
+  line-height: 22px;
+  color: #727682;
+  margin-bottom: 20px;
+}
+
+.card-text.editor {
+  margin-bottom: 0;
+  margin-top: $gap;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-buttons.hidden {
+  display: none;
+}
+
+.series-card {
+  height: 125px;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: $gap;
+  border-radius: 4px;
+  .series-img-top {
+    height: 100%;
+  }
+}
+
+/* end card scss*/

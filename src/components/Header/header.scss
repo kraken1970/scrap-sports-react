@@ -1,0 +1,135 @@
+@import "../../assets/scss/variables";
+
+.header,
+.footer {
+  background: #1e1e1e;
+  color: #ffffff;
+  min-width: 1360px; /*! ! ! temp*/
+}
+
+.logotype {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Sports World", sans-serif;
+  font-size: 36px;
+  line-height: 38px;
+  margin: 0;
+  margin-top: 10px;
+  color: #ffffff;
+  span {
+    color: #0fbe98;
+  }
+}
+
+.header-content {
+  height: 155px; /*temp*/
+  padding-top: 20px;
+  padding-right: $gap;
+  padding-bottom: 10px;
+  padding-left: $gap;
+  display: flex;
+  flex-direction: column;
+  &--up {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .header-form-block {
+      .nav-link {
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        height: 38px;
+        border-radius: 4px 0 0 4px;
+      }
+
+      height: 40px;
+      border-radius: 4px;
+      width: 656px; /*temp*/
+      border: 1px solid #e8e8e8;
+      display: flex;
+      &--select {
+        font-size: 16px !important;
+        line-height: 43px !important;
+        color: #727682 !important;
+        background-color: #e8e8e8;
+        width: 50px;
+        border: none;
+        padding-left: 10px;
+        cursor: pointer;
+      }
+      input {
+        border: none;
+        width: -webkit-fill-available;
+      }
+      button {
+        width: 50px;
+        margin-left: auto;
+        background: #0fbe98;
+        border-radius: 0px 4px 4px 0px;
+        border: none;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.header-content--down {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  .top-nav {
+    width: 67.16%;
+    display: flex;
+    ul {
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-evenly;
+      .top-nav--list {
+        .top-nav--link {
+          font-size: 18px;
+          line-height: 22px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+  .auth-block {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    &--name {
+      padding: 0;
+      margin: 0;
+      margin-right: 10px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    &--img {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      position: relative;
+      &::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right: 0px;
+        top: calc(50% - 10px / 2 - 14.5px);
+        background: #29cd6a;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+
+.social-net {
+  display: flex;
+  margin-left: 10px;
+  a {
+    margin-left: 30px;
+  }
+}

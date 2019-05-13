@@ -1,0 +1,58 @@
+@import "./assets/scss/variables";
+@import "./assets/scss/fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h3,
+h4 {
+  color: $headllines;
+}
+
+a {
+  color: inherit;
+  font: inherit;
+}
+
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: none !important;
+}
+
+body {
+  background: #f4f4f4;
+  color: $body-text;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: normal;
+}
+
+.main-wrapper {
+  width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}

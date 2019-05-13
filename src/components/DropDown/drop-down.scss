@@ -1,0 +1,23 @@
+.dropdown-search {
+  width: initial !important;
+  margin-left: initial !important;
+  background: initial !important;
+  border-radius: initial;
+  border: none;
+  color: initial !important;
+}
+
+.select-pages {
+  font-family: "Proxima Nova Semibold", sans-serif;
+  color: #0fbe98 !important;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: transparent !important;
+  border: none;
+  padding-right: 5px;
+  cursor: pointer;
+  &::after {
+    margin-left: 15px;
+    vertical-align: middle;
+  }
+}
