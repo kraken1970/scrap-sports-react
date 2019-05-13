@@ -6,8 +6,8 @@ import "./App.scss";
 function App() {
   return (
     <>
-      {/* <VideosPage /> */}
-      <VideosPageCategory />
+      <VideosPage />
+      {/* <VideosPageCategory /> */}
     </>
   );
 }
